@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.fest.fest.Controller.EventsListController">
+    <center>
+        <!-- Wrap the ListView in a VBox for padding and spacing -->
+        <VBox spacing="10">
+            <ListView fx:id="eventsListView" prefHeight="400" prefWidth="300" />
+        </VBox>
+    </center>
+
+    <bottom>
+        <!-- Add padding and spacing to the button -->
+        <VBox alignment="center">
+            <Button text="Create New Event" onAction="#redirectToEventCreationPage"/>
+        </VBox>
+    </bottom>
+</BorderPane>
+
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+
+<!--<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.fest.fest.Controller.EventsListController">-->
+<!--    <center>-->
+<!--        <ListView fx:id="eventsListView" />-->
+<!--    </center>-->
+
+<!--    <bottom>-->
+<!--        &lt;!&ndash; Add a button to redirect to the event creation page &ndash;&gt;-->
+<!--        <Button text="Create New Event" onAction="#redirectToEventCreationPage"/>-->
+<!--    </bottom>-->
+<!--</BorderPane>-->

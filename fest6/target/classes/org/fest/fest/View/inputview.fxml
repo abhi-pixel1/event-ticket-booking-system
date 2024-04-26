@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.fest.fest.Controller.inputController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <TabPane layoutY="100" prefHeight="300" prefWidth="600">
+        <Tab text="Organizer">
+
+            <VBox spacing="10" alignment="CENTER" prefHeight="200" prefWidth="600" >
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Button text="Register as PESU Club" onAction="#handleClubReg" />
+                    <Button text="Register as PESU Managemant" onAction="#handlePesuReg" />
+                    <Button text="Register as External Management" onAction="#handleExtreg" />
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Label text="Email:" />
+                    <TextField fx:id="organizerEmailField" prefWidth="200" />
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Label text="Password:" />
+                    <PasswordField fx:id="organizerPasswordField" prefWidth="200" />
+                </HBox>
+
+                <Button text="Login" onAction="#handleOrganizerLogin" />
+            </VBox>
+        </Tab>
+
+        <Tab text="Student">
+            <VBox spacing="10" alignment="CENTER" prefHeight="200" prefWidth="600" >
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Button text="Register as Student" onAction="#handleStudentReg" />
+                </HBox>
+
+            <HBox spacing="10" alignment="CENTER">
+                    <Label text="Email:" />
+                    <TextField fx:id="studentEmailField" prefWidth="200" />
+                </HBox>
+
+                <HBox spacing="10" alignment="CENTER">
+                    <Label text="Password:" />
+                    <PasswordField fx:id="studentPasswordField" prefWidth="200" />
+                </HBox>
+
+                <Button text="Login" onAction="#handleStudentLogin" />
+            </VBox>
+        </Tab>
+    </TabPane>
+
+</AnchorPane>

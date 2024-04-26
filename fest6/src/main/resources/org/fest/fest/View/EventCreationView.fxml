@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.fest.fest.Controller.EventCreationController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <VBox spacing="10" alignment="CENTER" prefHeight="200" prefWidth="600" >
+
+<!--        <HBox spacing="10" alignment="CENTER">-->
+<!--            <Label text="eventIdField:" />-->
+<!--            <TextField fx:id="eventIdField" prefWidth="200" />-->
+<!--        </HBox>-->
+
+<!--        <HBox spacing="10" alignment="CENTER">-->
+<!--            <Label text="organizerIdField:" />-->
+<!--            <TextField fx:id="organizerIdField" prefWidth="200" />-->
+<!--        </HBox>-->
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="eventNameField:" />
+            <TextField fx:id="eventNameField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="descriptionField:" />
+            <TextField fx:id="descriptionField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="startTimeField:" />
+            <TextField fx:id="startTimeField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="endTimeField:" />
+            <TextField fx:id="endTimeField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="placeField:" />
+            <TextField fx:id="placeField" prefWidth="200" />
+        </HBox>
+
+        <Label text="Create Platinum Ticket:" />
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Platinum Ticket Cost:" />
+            <TextField fx:id="platinumCostField" prefWidth="200" />
+        </HBox>
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Number of Platinum Seats:" />
+            <TextField fx:id="platinumNOSField" prefWidth="200" />
+        </HBox>
+
+
+
+        <Label text="Create Gold Ticket:" />
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Gold Ticket Cost:" />
+            <TextField fx:id="goldNOSField" prefWidth="200" />
+        </HBox>
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Number of Gold Seats:" />
+            <TextField fx:id="silverNOSField" prefWidth="200" />
+        </HBox>
+
+
+
+        <Label text="Create Silver Ticket:" />
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Silver Ticket Cost:" />
+            <TextField fx:id="silverCostField" prefWidth="200" />
+        </HBox>
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Number of Silver Seats:" />
+            <TextField fx:id="goldCostField" prefWidth="200" />
+        </HBox>
+
+        <Button text="Create Event" onAction="#createEvent" />
+    </VBox>
+
+</AnchorPane>
+
+
+
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+
+<!--<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.fest.fest.Controller.EventCreationController">-->
+<!--    <center>-->
+<!--        &lt;!&ndash; Input fields for event creation &ndash;&gt;-->
+<!--        <GridPane alignment="center" GridPane.halignment="CENTER" GridPane.valignment="CENTER">-->
+<!--            <columnConstraints>-->
+<!--                <ColumnConstraints hgrow="SOMETIMES" />-->
+<!--                <ColumnConstraints hgrow="SOMETIMES" />-->
+<!--            </columnConstraints>-->
+<!--            <rowConstraints>-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--                <RowConstraints vgrow="SOMETIMES" />-->
+<!--            </rowConstraints>-->
+
+<!--            <Label text="Event ID:" GridPane.columnIndex="0" GridPane.rowIndex="0" />-->
+<!--            <TextField fx:id="eventIdField" GridPane.columnIndex="1" GridPane.rowIndex="0" />-->
+
+<!--            <Label text="Organizer ID:" GridPane.columnIndex="0" GridPane.rowIndex="1" />-->
+<!--            <TextField fx:id="organizerIdField" GridPane.columnIndex="1" GridPane.rowIndex="1" />-->
+
+<!--            <Label text="Event Name:" GridPane.columnIndex="0" GridPane.rowIndex="2" />-->
+<!--            <TextField fx:id="eventNameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />-->
+
+<!--            <Label text="Description:" GridPane.columnIndex="0" GridPane.rowIndex="3" />-->
+<!--            <TextField fx:id="descriptionField" GridPane.columnIndex="1" GridPane.rowIndex="3" />-->
+
+<!--            <Label text="Start Time:" GridPane.columnIndex="0" GridPane.rowIndex="4" />-->
+<!--            <TextField fx:id="startTimeField" GridPane.columnIndex="1" GridPane.rowIndex="4" />-->
+
+<!--            <Label text="End Time:" GridPane.columnIndex="0" GridPane.rowIndex="5" />-->
+<!--            <TextField fx:id="endTimeField" GridPane.columnIndex="1" GridPane.rowIndex="5" />-->
+
+<!--            <Label text="Place:" GridPane.columnIndex="0" GridPane.rowIndex="6" />-->
+<!--            <TextField fx:id="placeField" GridPane.columnIndex="1" GridPane.rowIndex="6" />-->
+<!--        </GridPane>-->
+
+<!--        &lt;!&ndash; Button to create the event &ndash;&gt;-->
+<!--        <Button text="Create Event" onAction="#createEvent" />-->
+<!--    </center>-->
+<!--</BorderPane>-->

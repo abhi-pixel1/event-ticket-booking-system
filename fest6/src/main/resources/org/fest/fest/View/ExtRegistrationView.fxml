@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.fest.fest.Controller.ExtRegistrationController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <VBox spacing="10" alignment="CENTER" prefHeight="200" prefWidth="600" >
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="User Name:" />
+            <TextField fx:id="userNameField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Contact Person:" />
+            <TextField fx:id="contactPersonField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Email:" />
+            <TextField fx:id="emailField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Contact Phone:" />
+            <TextField fx:id="contactPhoneField" prefWidth="200" />
+        </HBox>
+
+        <HBox spacing="10" alignment="CENTER">
+            <Label text="Department:" />
+            <TextField fx:id="departmentField" prefWidth="200" />
+        </HBox>
+
+        <Button text="Create Event" onAction="#extReg" />
+    </VBox>
+
+</AnchorPane>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.fest.fest.Controller.HomeEventListController">
+    <center>
+        <ListView fx:id="eventsListView" />
+    </center>
+</BorderPane>
